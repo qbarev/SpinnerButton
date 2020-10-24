@@ -7,15 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE034B0A2538EC7C00FCDD22 /* CGColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE034B092538EC7C00FCDD22 /* CGColorExtension.swift */; };
+		CE4837642540CC48007858B9 /* CAShapeLayerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4837632540CC48007858B9 /* CAShapeLayerExtension.swift */; };
+		CE48376A2540D143007858B9 /* SpinnerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4837692540D143007858B9 /* SpinnerButton.swift */; };
+		CE48376D2540D38B007858B9 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48376C2540D38B007858B9 /* UIViewExtension.swift */; };
+		CE4837702540D6D0007858B9 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48376F2540D6D0007858B9 /* UIButtonExtension.swift */; };
+		CE4837732540DB06007858B9 /* CGSizeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4837722540DB06007858B9 /* CGSizeExtension.swift */; };
 		CE687B5A25325473008B0F12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE687B5925325473008B0F12 /* AppDelegate.swift */; };
 		CE687B5C25325473008B0F12 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE687B5B25325473008B0F12 /* SceneDelegate.swift */; };
 		CE687B5E25325473008B0F12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE687B5D25325473008B0F12 /* ViewController.swift */; };
 		CE687B6125325473008B0F12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE687B5F25325473008B0F12 /* Main.storyboard */; };
 		CE687B6325325475008B0F12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE687B6225325475008B0F12 /* Assets.xcassets */; };
 		CE687B6625325475008B0F12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE687B6425325475008B0F12 /* LaunchScreen.storyboard */; };
+		CE687B6F25325498008B0F12 /* SpinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE687B6E25325498008B0F12 /* SpinnerView.swift */; };
+		CEAD4575253B658900C854C4 /* DoubleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAD4574253B658900C854C4 /* DoubleExtension.swift */; };
+		CEAD4578253B65FF00C854C4 /* CGFloatExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAD4577253B65FF00C854C4 /* CGFloatExtension.swift */; };
+		CEAD457B253B667C00C854C4 /* IntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAD457A253B667C00C854C4 /* IntExtension.swift */; };
+		CEAD457E253B78C400C854C4 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAD457D253B78C400C854C4 /* StringExtension.swift */; };
+		CEAD4581253B859300C854C4 /* CAAnimationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAD4580253B859300C854C4 /* CAAnimationExtension.swift */; };
+		CEAD4585253BA85400C854C4 /* OptionalExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAD4584253BA85400C854C4 /* OptionalExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE034B092538EC7C00FCDD22 /* CGColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGColorExtension.swift; sourceTree = "<group>"; };
+		CE4837632540CC48007858B9 /* CAShapeLayerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAShapeLayerExtension.swift; sourceTree = "<group>"; };
+		CE4837692540D143007858B9 /* SpinnerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerButton.swift; sourceTree = "<group>"; };
+		CE48376C2540D38B007858B9 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		CE48376F2540D6D0007858B9 /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
+		CE4837722540DB06007858B9 /* CGSizeExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGSizeExtension.swift; sourceTree = "<group>"; };
 		CE687B5625325473008B0F12 /* ActivityButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActivityButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE687B5925325473008B0F12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE687B5B25325473008B0F12 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +43,13 @@
 		CE687B6225325475008B0F12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE687B6525325475008B0F12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE687B6725325475008B0F12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE687B6E25325498008B0F12 /* SpinnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerView.swift; sourceTree = "<group>"; };
+		CEAD4574253B658900C854C4 /* DoubleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleExtension.swift; sourceTree = "<group>"; };
+		CEAD4577253B65FF00C854C4 /* CGFloatExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGFloatExtension.swift; sourceTree = "<group>"; };
+		CEAD457A253B667C00C854C4 /* IntExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntExtension.swift; sourceTree = "<group>"; };
+		CEAD457D253B78C400C854C4 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		CEAD4580253B859300C854C4 /* CAAnimationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAAnimationExtension.swift; sourceTree = "<group>"; };
+		CEAD4584253BA85400C854C4 /* OptionalExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +63,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE034B052538EC3F00FCDD22 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CE034B092538EC7C00FCDD22 /* CGColorExtension.swift */,
+				CE48376F2540D6D0007858B9 /* UIButtonExtension.swift */,
+				CE48376C2540D38B007858B9 /* UIViewExtension.swift */,
+				CE4837632540CC48007858B9 /* CAShapeLayerExtension.swift */,
+				CEAD4584253BA85400C854C4 /* OptionalExtension.swift */,
+				CEAD4580253B859300C854C4 /* CAAnimationExtension.swift */,
+				CEAD457D253B78C400C854C4 /* StringExtension.swift */,
+				CEAD4574253B658900C854C4 /* DoubleExtension.swift */,
+				CEAD457A253B667C00C854C4 /* IntExtension.swift */,
+				CEAD4577253B65FF00C854C4 /* CGFloatExtension.swift */,
+				CE4837722540DB06007858B9 /* CGSizeExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CE034B0D2538ECDC00FCDD22 /* SpinnerView */ = {
+			isa = PBXGroup;
+			children = (
+				CE687B6E25325498008B0F12 /* SpinnerView.swift */,
+			);
+			path = SpinnerView;
+			sourceTree = "<group>";
+		};
+		CE4837672540D05A007858B9 /* SpinnerButton */ = {
+			isa = PBXGroup;
+			children = (
+				CE4837692540D143007858B9 /* SpinnerButton.swift */,
+			);
+			path = SpinnerButton;
+			sourceTree = "<group>";
+		};
 		CE687B4D25325473008B0F12 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +116,9 @@
 		CE687B5825325473008B0F12 /* ActivityButton */ = {
 			isa = PBXGroup;
 			children = (
+				CE4837672540D05A007858B9 /* SpinnerButton */,
+				CE034B0D2538ECDC00FCDD22 /* SpinnerView */,
+				CE034B052538EC3F00FCDD22 /* Extensions */,
 				CE687B5925325473008B0F12 /* AppDelegate.swift */,
 				CE687B5B25325473008B0F12 /* SceneDelegate.swift */,
 				CE687B5D25325473008B0F12 /* ViewController.swift */,
@@ -137,7 +200,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEAD4575253B658900C854C4 /* DoubleExtension.swift in Sources */,
+				CE687B6F25325498008B0F12 /* SpinnerView.swift in Sources */,
+				CE4837732540DB06007858B9 /* CGSizeExtension.swift in Sources */,
+				CEAD4581253B859300C854C4 /* CAAnimationExtension.swift in Sources */,
+				CE4837642540CC48007858B9 /* CAShapeLayerExtension.swift in Sources */,
+				CE48376D2540D38B007858B9 /* UIViewExtension.swift in Sources */,
+				CE48376A2540D143007858B9 /* SpinnerButton.swift in Sources */,
+				CE034B0A2538EC7C00FCDD22 /* CGColorExtension.swift in Sources */,
+				CEAD4578253B65FF00C854C4 /* CGFloatExtension.swift in Sources */,
 				CE687B5E25325473008B0F12 /* ViewController.swift in Sources */,
+				CEAD457E253B78C400C854C4 /* StringExtension.swift in Sources */,
+				CEAD4585253BA85400C854C4 /* OptionalExtension.swift in Sources */,
+				CE4837702540D6D0007858B9 /* UIButtonExtension.swift in Sources */,
+				CEAD457B253B667C00C854C4 /* IntExtension.swift in Sources */,
 				CE687B5A25325473008B0F12 /* AppDelegate.swift in Sources */,
 				CE687B5C25325473008B0F12 /* SceneDelegate.swift in Sources */,
 			);
